@@ -243,7 +243,7 @@ var mydiaryapp = {
 		}
 	},
 	getdiaryofflinedata : function() {
-		loading.show();
+		//loading.show();
 
 		diarycontainer = this.diarycontainer;
 				
@@ -287,7 +287,7 @@ var mydiaryapp = {
 		    });
 		   
 		});
-		loading.hide();
+		//loading.hide();
 	}
 }
 function alertDismissed(){
