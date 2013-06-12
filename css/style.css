@@ -1,0 +1,37 @@
+.diaryentry{
+	margin-bottom: 10px;
+}
+.d-date{
+	border:0.2em solid #FFFADF;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+}
+.d-day{
+	font-size: 26px;
+}
+.d-month{
+	font-size: 12px;
+}
+.d-notes{
+	border:0.2em solid #FFE155;
+	border-radius: 5px;
+	display: inline-block;
+	min-height: 100px;
+	text-align: left;
+	padding: 10px;
+}
+.d-caption{
+	font-size: 20px;
+	color: #2489CE;
+}
+.d-desc{
+	font-size: 15px;
+}
+.d-time{
+	float: right;
+	font-size: 12px;
+	color: #fd4239;
+	font-weight: bold;
+	padding: 6px 0px;
+}
