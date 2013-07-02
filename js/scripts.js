@@ -30,13 +30,13 @@ var mydiaryapp = {
 	init : function() {
 		diarycontainer = this.diarycontainer;
 		
-		// if(navigator.onLine){
-			// this.writeindiarybutton.click(this.writeindiary);
-			 // this.getdiarydatafromserver(this.userid);
-		// }else{
+		if(navigator.onLine){
+			this.writeindiarybutton.click(this.writeindiary);
+			 this.getdiarydatafromserver(this.userid);
+		}else{
 			this.writeindiarybutton.click(this.writeindiaryoffline);
 			this.getdiaryofflinedata();
-		// }
+		}
 
 	},
 	writeindiary: function() {
